@@ -6,9 +6,16 @@
              mc:Ignorable="d"
              x:Class="RELPREMEE.App">
     <Application.Resources>
-        <Style TargetType="NavigationPage">
-            <Setter Property="BarBackgroundColor" Value="GreenYellow"/>
-            <Setter Property="BarTextColor" Value="White"/>
+        <Style TargetType="StackLayout">
+            <Setter Property="Margin" Value="20"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="#206e2a"/>
+            <Setter Property="TextColor" Value="#dea514"/>
+            <Setter Property="CornerRadius" Value="20"/>
+        </Style>
+        <Style TargetType="ContentPage">
+            <Setter Property="BackgroundColor" Value="White"/>
         </Style>
     </Application.Resources>
 </Application>

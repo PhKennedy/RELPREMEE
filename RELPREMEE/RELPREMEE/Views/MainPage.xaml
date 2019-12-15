@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="RELPREMEE.MainPage"
+             Title="RELPREMEE"
+             BackgroundColor="White">
+    <StackLayout>
+        <Label Text="RELPREMEE" 
+           HorizontalOptions="Center"
+           VerticalOptions="Start" 
+           FontAttributes="Bold"
+           FontSize="Title"
+           TextColor="Black"/>
+        <Label Text="Reutilização de materiais eletroeletrônicos promovendo a revitalização do laboratório de protótipos."
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="Start"
+               FontSize="Small"
+               TextColor="Black"/>
+
+        <Button Text="Eventos"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="EndAndExpand"
+                WidthRequest="250"
+                Command="{Binding EventosCommand}"/>
+        <Button Text="Localizações"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="EndAndExpand"
+                WidthRequest="250"
+                Command="{Binding LocalizacoesCommand}"/>
+        <Button Text="Sobre o RELPREMEE"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="EndAndExpand"
+                WidthRequest="250"
+                Command="{Binding EventosCommand}"/>
+
+        <Image Source="IFPALOGO.jpg"
+               Aspect="AspectFit"
+               VerticalOptions="EndAndExpand"
+               HeightRequest="150"/>
+        <Label Text="Campus Belém"
+               FontSize="Micro"
+               TextColor="Black"
+               HorizontalOptions="Center"/>
+
+    </StackLayout>
+
+</ContentPage>

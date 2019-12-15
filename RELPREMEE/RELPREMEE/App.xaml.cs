@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RELPREMEE.Services;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -8,6 +9,7 @@ namespace RELPREMEE
     {
         public App()
         {
+            DependencyService.Register<INavigationService, NavigationService>();
             InitializeComponent();
 
             MainPage = new NavigationPage(new MainPage());
