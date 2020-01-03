@@ -9,6 +9,7 @@ namespace RELPREMEE.Services
     {
         Task NavigateToLocalizacoesPage();
         Task NavigateToMapaPage();
+        Task NavigateToEventosPage();
 
     }
 }

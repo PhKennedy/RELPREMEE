@@ -53,6 +53,7 @@ namespace RELPREMEE.ViewModels
                 SetProperty(ref _localidadeNome, value);
             }
         }
+        public string Descricao { get; set; }
 
         public MapaPageViewModel()
         {

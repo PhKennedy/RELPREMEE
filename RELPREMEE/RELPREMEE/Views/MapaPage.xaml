@@ -11,7 +11,7 @@
         <StackLayout>
             <ContentView Content="{Binding Mapa}" HeightRequest="300" WidthRequest="300" />
 
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="{Binding Descricao}"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

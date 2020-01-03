@@ -23,9 +23,9 @@ namespace RELPREMEE.ViewModels
         {
            await NavigationService.NavigateToLocalizacoesPage();
         }
-        private void EventosExecute(object obj)
+        private async void EventosExecute(object obj)
         {
-            //Navegar para pagina de eventos
+            await NavigationService.NavigateToEventosPage();
         }
     }
 }
